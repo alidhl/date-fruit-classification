@@ -27,3 +27,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run main.py
 ```
+## Screenshots
+
+Here are some screenshots of the app in action:
+![Screenshot 2024-03-25 203056](https://github.com/alidhl/date-fruit-classification/assets/119793124/1ec7f346-25ca-4ace-9333-c186f305d69e)
