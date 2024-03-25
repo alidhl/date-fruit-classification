@@ -12,9 +12,14 @@ st.markdown("""
 This app uses machine learning to classify different types of date fruits. Simply upload an image of a date fruit, and let the magic happen!
 """)
 
-model = Model()
-llm = FactGenerator()
-chain = llm.get_chain()
+@st.cache_resource
+def load_resources():
+    model = Model()
+    llm = FactGenerator()
+    chain = llm.get_chain()
+    return model, chain
+
+model, chain = load_resources()
 
 # Check if the 'uploaded_files' list exists in the session state. If not, initialize it.
 if 'uploaded_files' not in st.session_state:
