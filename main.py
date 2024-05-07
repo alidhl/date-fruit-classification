@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import numpy as np
 from model import Model
 from chatbot import FactGenerator
 
