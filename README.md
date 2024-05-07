@@ -5,6 +5,10 @@ This project applies machine learning to classify date fruit types into nine dif
 ## Demo
 
 Explore the Date Fruit Classifier and learn fascinating facts about different types of dates: [Date Fruit Classifier Demo](https://date-fruit-classification.streamlit.app/)
+## Model Performance
+
+- **Transfer Learning:** The model uses transfer learning from the MobileNet architecture to accurately classify date fruit types.
+- **Accuracy:** The model achieved an accuracy of 95% with the test data, demonstrating its effectiveness in identifying the nine date fruit classes.
 ## Features
 
 - **TensorFlow Neural Networks:** Employs sophisticated convolutional neural networks (CNN) designed with TensorFlow to accurately classify images of different date fruits.
